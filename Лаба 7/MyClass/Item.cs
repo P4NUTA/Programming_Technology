@@ -4,8 +4,17 @@ using System.Text;
 
 namespace MyClass
 {
-    class Item
+    abstract class Item
     {
+        public Item(long invNumber, bool taken)
+        {
+            this.invNumber = invNumber;
+            this.taken = taken;
+        }
+        public Item()
+        {
+            this.taken = true;
+        }
         // инвентарный номер — целое число
         protected long invNumber;
         // хранит состояние объекта - взят ли на руки
@@ -29,10 +38,7 @@ namespace MyClass
             taken = false;
         }
         // операция "вернуть"
-        public void Return()
-        {
-            taken = true;
-        }
+       public abstract void Return();
         public void Print()
         {
             Console.WriteLine("Состояние единицы хранения:\n Инвентарный номер: {0}\n Наличие: {1}", invNumber, taken);
