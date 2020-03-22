@@ -6,13 +6,17 @@ namespace Implementation_of_the_progression
 {
     class ArithmeticProgression : Progression
     {
+        public int k { get; set; }
         // Конструктор класса
-        public ArithmeticProgression(int K) : base(K) { }
-        // Переписанный метод
-        public override int GetElement()
+        public ArithmeticProgression(int K)
         {
-            int sum=0;
-            for (int i = 0; i <= k; i++)
+            this.k = K;
+        }
+        // Переписанный метод
+        public int GetElement()
+        {
+            int sum = 0;
+            for (int i = 0; i <= this.k; i++)
                 sum += i;
             return sum;
         }

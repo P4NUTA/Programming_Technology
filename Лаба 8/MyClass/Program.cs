@@ -21,6 +21,7 @@ namespace MyClass
             b2.Print();
             /*            Book b3 = new Book("Лермонтов М.Ю.", "Мцыри");
                         b3.Print();*/
+            Audit.RunAudit();
             Magazine mag1 = new Magazine("О природе", 5, "Земля и мы", 2014, 1235, true);
             mag1.Take();
             mag1.Subs();

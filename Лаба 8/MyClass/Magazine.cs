@@ -4,6 +4,7 @@ using System.Text;
 
 namespace MyClass
 {
+    delegate void ProcessMagazineDelegate(Magazine mag, DateTime dt);
     class Magazine : Item, IPubs
     {
         public string Volume { get; set; } // том
@@ -33,9 +34,13 @@ namespace MyClass
             taken = true;
         }
         public bool IfSubs { get; set; }
+
+        public static event ProcessMagazineDelegate Subscribe = null;
         public void Subs()
         {
             IfSubs = true;
+            if (Subscribe != null)
+                Subscribe(this, DateTime.Now);
         }
 
     }

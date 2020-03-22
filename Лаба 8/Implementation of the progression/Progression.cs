@@ -4,16 +4,8 @@ using System.Text;
 
 namespace Implementation_of_the_progression
 {
-    abstract class Progression
+    interface Progression
     {
-        // Переменная
-        public int k { get; set; }
-        // Конструктор класса
-        public Progression(int K)
-        {
-            this.k = K;
-        }
-        // Абстрактный метод
-        abstract public int GetElement();
+        public delegate int GetElement(int k);
     }
 }

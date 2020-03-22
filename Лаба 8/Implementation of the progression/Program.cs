@@ -12,7 +12,6 @@ namespace Implementation_of_the_progression
             // Вывод значений
             Console.WriteLine("ArithmeticProgression: {0}",AP.GetElement());
             Console.WriteLine("GeometricProgression: {0}", GP.GetElement());
-
         }
     }
 }
