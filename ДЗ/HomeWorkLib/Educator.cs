@@ -18,7 +18,9 @@ namespace homework
         /// <para>@param string name - Educator's name</para>
         /// <para>@param string secondname - Educator's secondname</para>
         /// <para>@param string surname - Educator's surname</para>
-        /// <para>@param string birthday - Educator's birthday</para>
+        /// <para>@param int bday   - Educator's birthday</para>
+        /// <para>@param int bmonth - Educator's birthmonth</para>
+        /// <para>@param int byear  - Educator's birthyear</para>
         /// <para>@param string position - Educator's position </para>
         /// <para>@param string faculty- Educator's faculty</para>
         /// <para>@param int experience- Educator's experience</para>

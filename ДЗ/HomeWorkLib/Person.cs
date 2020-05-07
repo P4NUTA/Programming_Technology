@@ -21,7 +21,9 @@ namespace homework
         /// <para>@param string name - Person's name</para>
         /// <para>@param string secondname - Person's secondname</para>
         /// <para>@param string surname - Person's surname</para>
-        /// <para>@param string birthday - Person's birthday</para>
+        /// <para>@param int bday - Person's birthday</para>
+        /// <para>@param int bmonth - Person's birthmonth</para>
+        /// <para>@param int byear - Person's birthyear</para>
         /// </summary>        
         public Person(string name, string secondname, string surname, int bday, int bmonth, int byear)
         {

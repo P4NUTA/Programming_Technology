@@ -15,7 +15,9 @@ namespace homework
         /// <para>@param string name - Student's name</para>
         /// <para>@param string secondname - Student's secondname</para>
         /// <para>@param string surname - Student's surname</para>
-        /// <para>@param string birthday - Student's birthday</para>
+        /// <para>@param int bday - Student's birthday</para>
+        /// <para>@param int bmonth- Student's birthmonth</para>
+        /// <para>@param int byear - Student's birthyear</para>
         /// <para>@param string group - Student's group </para>
         /// <para>@param string faculty- Student's faculty</para>
         /// </summary>

@@ -16,7 +16,9 @@ namespace homework
         /// <para>@param string name - Manager's name</para>
         /// <para>@param string secondname - Manager's secondname</para>
         /// <para>@param string surname - Manager's surname</para>
-        /// <para>@param string birthday - Manager's birthday</para>
+        /// <para>@param int bday   - Manager's birthday</para>
+        /// <para>@param int bmonth - Manager's birthmonth</para>
+        /// <para>@param int byear  - Manager's birthyear</para>
         /// <para>@param string position - Manager's position </para>
         /// <para>@param string faculty- Manager's faculty</para>
         /// </summary>

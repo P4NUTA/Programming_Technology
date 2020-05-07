@@ -2,17 +2,19 @@
 
 public class User
 {
-    static int current_value = 100;
-    public User()
+    private int total_value = 100;
+    public int bet;
+    public int Bet(int this_bet)
     {
-    }
-    public int bet(int this_bet)
-    {
-        if (this_bet > 0 && this_bet <= 100)
+        if (this_bet > 0 && this_bet <= total_value)
         {
-
+            Console.WriteLine("Ставки сделаны");
+            
+            return this_bet;
+        }else
+        {
+            return 0;
         }
 
-        return this_bet;
     }
 }

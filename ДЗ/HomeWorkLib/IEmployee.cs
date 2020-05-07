@@ -4,8 +4,8 @@ using System.Text;
 
 namespace homework
 {
-    interface IEmployee
+    public interface IEmployee
     {
-        public int Salary(int position);
+        int Salary(int position);
     }
 }
