@@ -41,6 +41,7 @@ namespace homework
         /// </summary>
         public void WriteFIO()
         {
+            Console.WriteLine("Name = {0}", this.name);
             Console.WriteLine("Surname = {0}", this.surname);
             Console.WriteLine("Secondname = {0}", this.secondname);
             Console.WriteLine("Name = {0}", this.name);
